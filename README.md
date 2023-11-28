@@ -7,7 +7,6 @@ Welcome to the Step It Homework repository! Here you can find homework assignmen
 - [Introduction](#introduction)
 - [Homework Overview](#homework-overview)
 - [Getting Started](#getting-started)
-- [Folder Structure](#folder-structure)
 - [License](LICENSE)
 
 ## Introduction
@@ -40,10 +39,6 @@ To get started with this project, follow these steps:
 ## Contact
 
 Have questions or feedback? Feel free to reach out to us via email at [orkhanm07@gmail.com](mailto:orkhanm07@gmail.com).
-
-## Folder Structure
-
-The folder structure for each language follows a similar pattern:
 
 ---
 
