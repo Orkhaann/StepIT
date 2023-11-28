@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BankManagemeent/1.0.0": {
+        "runtime": {
+          "BankManagemeent.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankManagemeent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

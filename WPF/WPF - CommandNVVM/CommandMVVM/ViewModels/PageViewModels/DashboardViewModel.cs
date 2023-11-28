@@ -1,0 +1,113 @@
+﻿using LessonMVVM.Commands;
+using LessonMVVM.Models;
+using LessonMVVM.Services;
+using LessonMVVM.Views.Windows;
+using System.Collections.ObjectModel;
+using System.Windows;
+using System.Windows.Input;
+
+namespace LessonMVVM.ViewModels.PageViewModels;
+
+public class DashboardViewModel : NotificationService
+{
+    private Car? car_;
+    public Car? car { get => car_; set { car_ = value; OnPropertyChanged(); } }
+
+    public ObservableCollection<Car> Cars { get; set; }
+
+    #region All Commands
+
+    public ICommand AddCommand{ get; set; }
+    public ICommand GetAllCommand{ get; set; }
+    public ICommand EditCommand{ get; set; }
+    public ICommand SaveCommand { get; set; }
+    public ICommand CancelCommand { get; set; }
+    public ICommand RemoveCommand { get; set; }
+    #endregion
+    public DashboardViewModel()
+    {
+        Cars = new ObservableCollection<Car>()
+        {
+            new("Kia", "Sportage", "2016"),
+            new("BMW", "M5", "2018"),
+            new("Audi", "R8", "2008"),
+            new("BMW", "M6", "2014"),
+        };
+
+        car = new();
+
+
+        AddCommand = new RelayCommand(AddCar, CanAddCar);
+        GetAllCommand = new RelayCommand(GetAllCars, CanAllCars);
+        EditCommand = new RelayCommand(Edit, CanEdit);
+        SaveCommand = new RelayCommand(Save, CanSave);
+        CancelCommand = new RelayCommand(Cancel);
+        RemoveCommand = new RelayCommand(Remove,CanRemove);
+    }
+
+    public void Remove(object? paramter)
+    {
+        Cars.RemoveAt((int)paramter);
+    }
+
+    public bool CanRemove(object? parameter)
+    {
+        return (int?)parameter != -1;
+    }
+
+    public void Cancel(object? paramter)
+    {
+        (paramter as Window)?.Close();
+        car = new();
+    }
+
+    public void Save(object? paramter)
+    {
+        Cars.RemoveAt((int)paramter);
+        Cars.Insert((int)paramter, car);
+        car = new();
+    }
+
+    public bool CanSave(object? parameter)
+    {
+        return !string.IsNullOrEmpty(car?.Make) &&
+           !string.IsNullOrEmpty(car?.Model) &&
+           !string.IsNullOrEmpty(car?.Year);
+    }
+
+    public void GetAllCars(object? parameter)
+    {
+        var getAllView = new AllCarView();
+        getAllView.DataContext = new GetAllCarViewModel(Cars);
+        getAllView.ShowDialog();
+    }
+    public bool CanAllCars(object? parameter)
+    {
+        return Cars.Count >= 5;
+    }
+    public void Edit(object? paramter)
+    {
+        car = Cars[(int)paramter];
+        EditView? editView = new EditView();
+        editView.btn_save.CommandParameter = paramter;
+        editView!.DataContext = this;
+        editView.ShowDialog();
+    }
+    public bool CanEdit(object? parameter)
+    {
+        var param = (int?)parameter;
+        return param != -1;
+    }
+    public void AddCar(object? parameter)
+    {
+        Cars.Add(car!);
+        car = new();
+    }
+
+    public bool CanAddCar(object? parameter)
+    {
+        return !string.IsNullOrEmpty(car?.Make) &&
+               !string.IsNullOrEmpty(car?.Model) &&
+               !string.IsNullOrEmpty(car?.Year);
+    }
+}

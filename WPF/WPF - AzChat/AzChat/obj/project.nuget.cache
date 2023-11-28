@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "wCyXzfJOeSky8AlM7+OmZQSnmWo0pIoMSdjbOCWTZxBtBJYqykt8bvMWwiVWfR/5buEz8NHznMy0vg4brEeMQw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\orkha_wpyrape\\source\\repos\\AzChat\\AzChat\\AzChat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}

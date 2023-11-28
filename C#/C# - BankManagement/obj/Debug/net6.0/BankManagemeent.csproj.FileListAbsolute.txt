@@ -1,0 +1,15 @@
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\bin\Debug\net6.0\BankManagemeent.exe
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\bin\Debug\net6.0\BankManagemeent.deps.json
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\bin\Debug\net6.0\BankManagemeent.runtimeconfig.json
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\bin\Debug\net6.0\BankManagemeent.dll
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\bin\Debug\net6.0\BankManagemeent.pdb
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.csproj.AssemblyReference.cache
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.AssemblyInfoInputs.cache
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.AssemblyInfo.cs
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.csproj.CoreCompileInputs.cache
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.dll
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\refint\BankManagemeent.dll
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.pdb
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\BankManagemeent.genruntimeconfig.cache
+C:\Users\orkha_wpyrape\Downloads\Salam_Ay_Qaga\BankManagemeent\obj\Debug\net6.0\ref\BankManagemeent.dll

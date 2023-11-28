@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nwbi+P6dcSzRXFMr10v87f6fGqFujAuO8pUaiPAPgb4rIOMXBiOeMaoOP8KLZ3smEQQnp37PJWEedJJ8qQnsjA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\orkha_wpyrape\\source\\repos\\ScreenShot\\ScreenShot\\ScreenShot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

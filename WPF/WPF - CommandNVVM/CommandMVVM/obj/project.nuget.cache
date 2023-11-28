@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "hg9s0SRdipW3P16bpUjhIZHj/Hps8Yvduwv1NcPsqeZQFXytPNAVC94IZP/++243ZbHNNu0Aya92sxwhINoJuw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\orkha_wpyrape\\Music\\Wpf_MVVM-main\\CommandMVVM\\MVVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512"
+  ],
+  "logs": []
+}

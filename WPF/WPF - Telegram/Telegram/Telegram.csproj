@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="MenuIcon.png" />
+    <Resource Include="Microphoneicon.png" />
+    <Resource Include="SearchIcon.png" />
+    <Resource Include="SeenIcon.png" />
+    <Resource Include="SelectIcon.png" />
+    <Resource Include="SmileIcon.png" />
+    <Resource Include="SourceIcon.png" />
+  </ItemGroup>
+
+</Project>

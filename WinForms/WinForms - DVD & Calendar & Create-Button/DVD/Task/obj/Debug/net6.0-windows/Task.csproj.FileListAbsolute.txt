@@ -1,0 +1,16 @@
+C:\Users\orkha_wpyrape\source\repos\Task\Task\bin\Debug\net6.0-windows\Task.exe
+C:\Users\orkha_wpyrape\source\repos\Task\Task\bin\Debug\net6.0-windows\Task.deps.json
+C:\Users\orkha_wpyrape\source\repos\Task\Task\bin\Debug\net6.0-windows\Task.runtimeconfig.json
+C:\Users\orkha_wpyrape\source\repos\Task\Task\bin\Debug\net6.0-windows\Task.dll
+C:\Users\orkha_wpyrape\source\repos\Task\Task\bin\Debug\net6.0-windows\Task.pdb
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.csproj.GenerateResource.cache
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.AssemblyInfoInputs.cache
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.AssemblyInfo.cs
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.csproj.CoreCompileInputs.cache
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.dll
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\refint\Task.dll
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.pdb
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.genruntimeconfig.cache
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\ref\Task.dll
+C:\Users\orkha_wpyrape\source\repos\Task\Task\obj\Debug\net6.0-windows\Task.DVD.resources

@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Name="Mainwindow" Height="480" Width="820">
+    <Grid Name="gr" Height="461" VerticalAlignment="Top">
+        <Button Name="Btn1" Background="Orange" Content="1" HorizontalAlignment="Left" Margin="47,49,0,0" VerticalAlignment="Top" Height="122" Width="179" Click="Btn1_Click" MouseRightButtonDown="Btn1_MouseRightButtonDown" />
+        <Button Name="Btn2" Background="Pink" Content="2" HorizontalAlignment="Left" Margin="308,49,0,0" VerticalAlignment="Top" Height="122" Width="180" Click="Btn2_Click" MouseRightButtonDown="Btn2_MouseRightButtonDown"/>
+        <Button Name="Btn3" Background="CornflowerBlue" Content="3" HorizontalAlignment="Left" Margin="579,49,0,0" VerticalAlignment="Top" Height="122" Width="179" Click="Btn3_Click" MouseRightButtonDown="Btn3_MouseRightButtonDown"/>
+        <Button Name="Btn4" Background="Red" Content="4" HorizontalAlignment="Left" Margin="47,274,0,0" VerticalAlignment="Top" Height="122" Width="179" Click="Btn4_Click" MouseRightButtonDown="Btn4_MouseRightButtonDown"/>
+        <Button Name="Btn5" Background="DarkViolet" Content="5" HorizontalAlignment="Left" Margin="308,274,0,0" VerticalAlignment="Top" Height="122" Width="180" Click="Btn5_Click" MouseRightButtonDown="Btn5_MouseRightButtonDown"/>
+        <Button Name="Btn16" Background="LightGray" Content="6" HorizontalAlignment="Left" Margin="579,274,0,0" VerticalAlignment="Top" Height="122" Width="179" Click="Btn16_Click" MouseRightButtonDown="Btn16_MouseRightButtonDown"/>
+    </Grid>
+</Window>

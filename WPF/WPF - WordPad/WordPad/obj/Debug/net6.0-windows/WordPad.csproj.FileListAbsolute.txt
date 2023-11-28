@@ -1,0 +1,16 @@
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\bin\Debug\net6.0-windows\WordPad.exe
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\bin\Debug\net6.0-windows\WordPad.deps.json
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\bin\Debug\net6.0-windows\WordPad.runtimeconfig.json
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\bin\Debug\net6.0-windows\WordPad.dll
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\bin\Debug\net6.0-windows\WordPad.pdb
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.csproj.GenerateResource.cache
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.AssemblyInfoInputs.cache
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.AssemblyInfo.cs
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.csproj.CoreCompileInputs.cache
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.dll
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\refint\WordPad.dll
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.pdb
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.genruntimeconfig.cache
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\ref\WordPad.dll
+C:\Users\orkha_wpyrape\source\repos\WordPad\WordPad\obj\Debug\net6.0-windows\WordPad.WordPad.resources

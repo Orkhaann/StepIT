@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "C_sharp_cash_machine/1.0.0": {
+        "dependencies": {
+          "Extra_Functions_Library": "1.0.0"
+        },
+        "runtime": {
+          "C_sharp_cash_machine.dll": {}
+        }
+      },
+      "Extra_Functions_Library/1.0.0": {
+        "runtime": {
+          "Extra_Functions_Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "C_sharp_cash_machine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Extra_Functions_Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

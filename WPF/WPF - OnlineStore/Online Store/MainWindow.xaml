@@ -1,0 +1,68 @@
+﻿<Window x:Class="Online_Store.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Online_Store"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        mc:Ignorable="d"
+        Background="White"
+        Title="Store" Height="700" Width="1200">
+    <Grid>
+        <Grid>
+            <Button Background="Black" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 0 50 20" Click="Button_Click"
+              Style="{StaticResource MaterialDesignFloatingActionButton}"
+              IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" BorderBrush="Black">
+                <materialDesign:PackIcon Kind="PlusThick"  />
+            </Button>
+        </Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.1*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="0">
+                <TextBox HorizontalContentAlignment="Center" VerticalAlignment="Center" Text="Search" Foreground="Purple" GotFocus="TextBox_GotFocus" x:Name="searchTextBox" TextChanged="searchTextBox_TextChanged" Margin="400 0 400 0" BorderBrush="Purple"/>
+            </Grid>
+
+            <Grid Grid.Row="1">
+                <ListView Name="ProductsLisView" ItemsSource="{Binding products}" MouseDoubleClick="listviee_MouseDoubleClick" SelectionChanged="ProductsLisView_SelectionChanged"  >
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn>
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+                                            <Image Name="imagee" Source="{Binding ImagePath}" Width="100" Height="100" />
+                                            <TextBlock HorizontalAlignment="Center" Text="{Binding Name}" Margin="0,5,0,0" />
+
+                                            <Button Click="Button_Click_1"
+                                                Style="{StaticResource MaterialDesignFloatingActionMiniDarkButton}"
+                                                ToolTip="MaterialDesignFloatingActionMiniDarkButton"
+                                                IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}">
+                                                <materialDesign:PackIcon Kind="FileEdit"  />
+                                            </Button>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                        </GridView>
+                    </ListView.View>
+                    <ListView.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Horizontal"  />
+                        </ItemsPanelTemplate>
+                    </ListView.ItemsPanel>
+                </ListView>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

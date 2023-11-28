@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="delete.png" />
+    <None Remove="history.png" />
+    <None Remove="menu.png" />
+    <None Remove="window.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="delete.png" />
+    <Resource Include="history.png" />
+    <Resource Include="menu.png" />
+    <Resource Include="history %281%29.png" />
+    <Resource Include="Screenshot 2023-10-15 202755.png" />
+    <Resource Include="window.png" />
+  </ItemGroup>
+
+</Project>

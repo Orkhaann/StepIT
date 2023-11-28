@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W7DnhYR2hTVYK/Lg5rLkS79lBaBGvBY+76ZAX8KenTsaYybEWkltawvyUCFXp1RcCKzGS6RQKifq0p1nHp+6Kg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\orkha_wpyrape\\Pictures\\WinForms Task2\\Task\\Task\\Task.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\dropbox.api\\6.37.0\\dropbox.api.6.37.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

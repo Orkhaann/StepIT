@@ -1,0 +1,62 @@
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store_MarkupCompile.cache
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\Online Store.exe
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\Online Store.deps.json
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\Online Store.runtimeconfig.json
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\Online Store.dll
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\Online Store.pdb
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store_MarkupCompile.lref
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.g.resources
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.AssemblyInfoInputs.cache
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.AssemblyInfo.cs
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.dll
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\refint\Online Store.dll
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.pdb
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.genruntimeconfig.cache
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\ref\Online Store.dll
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Administrator\source\repos\Online Store\Online Store\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.csproj.AssemblyReference.cache
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\App.baml
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Online Store.csproj.CopyComplete
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Views\AddProduct.g.cs
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Views\AddProduct.baml
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Views\EditProduct.g.cs
+C:\Users\Administrator\source\repos\Online Store\Online Store\obj\Debug\net6.0-windows\Views\EditProduct.baml
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\Online Store.exe
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\Online Store.deps.json
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\Online Store.runtimeconfig.json
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\Online Store.dll
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\Online Store.pdb
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\Microsoft.Xaml.Behaviors.dll
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.csproj.AssemblyReference.cache
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Views\AddProduct.g.cs
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Views\EditProduct.g.cs
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store_MarkupCompile.cache
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store_MarkupCompile.lref
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\App.baml
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Views\AddProduct.baml
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Views\EditProduct.baml
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.g.resources
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.AssemblyInfoInputs.cache
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.AssemblyInfo.cs
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.csproj.CoreCompileInputs.cache
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.csproj.CopyComplete
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.dll
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\refint\Online Store.dll
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.pdb
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store.genruntimeconfig.cache
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\ref\Online Store.dll
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\bin\Debug\net6.0-windows\StaticFiles\Images\Cola.png
+C:\Users\orkha_wpyrape\Desktop\WPF-Online-Store-master\Online Store\obj\Debug\net6.0-windows\Online Store_Content.g.cs

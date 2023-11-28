@@ -1,0 +1,172 @@
+﻿<Window x:Class="AzChat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AzChat"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Title="AzChat" Height="800" Width="1400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="563*" />
+            <RowDefinition Height="121*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="250"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+        <materialDesign:PackIcon Kind="Phone" Width="20" Height="20"/>
+        <Frame Grid.Row="0" Grid.Column="0" Background="#1e1f22"/>
+        <Frame Grid.Row="1" Grid.Column="0" Background="#1e1f22"/>
+        <Frame Grid.Row="2" Grid.Column="0" Background="#1e1f22"/>
+        <Frame Grid.Row="2" Grid.Column="1" Background="#2b2d31"/>
+        <Frame Grid.Row="0" Grid.Column="1" Background="#2b2d31"/>
+        <Frame Grid.Row="1" Grid.Column="1" Background="#2b2d31"/>
+        <Frame Grid.Row="0" Grid.Column="3" Background="#383a40"/>
+        <Frame Grid.Row="1" Grid.Column="3" Background="#232428"/>
+        <Frame Grid.Row="2" Grid.Column="3" Background="#232428"/>
+        <Frame Grid.Row="0" Grid.Column="2" Background="#383a40"/>
+        <Frame Grid.Row="2" Grid.Column="2" Background="#313338"/>
+        <ListBox x:Name="messageListBox" Grid.Row="1" Grid.Column="2" Background="#313338" ItemsSource="{Binding Messages}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Timestamp}" Foreground="White" FontSize="10"/>
+                        <TextBlock Text="{Binding Message}" Foreground="White" FontSize="12"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Frame Grid.Row="3" Grid.Column="1" Background="#232428"/>
+        <Frame Grid.Row="3" Grid.Column="0" Background="#1e1f22"/>
+        <Frame Grid.Row="3" Grid.Column="2" Background="#383a40"/>
+        <Frame Grid.Row="3" Grid.Column="4" Background="#232428"/>
+        <Border Grid.Row="3" Grid.Column="1" CornerRadius="20" Width="35" Height="35" VerticalAlignment="Center" Margin="0 0 200 0">
+            <Border.Background>
+                <ImageBrush ImageSource="../../Images/ProfilePhotoOrkhan.png"/>
+            </Border.Background>
+        </Border>
+        <Label Grid.Row="3" Grid.Column="1" Content="'rkhan" Foreground="White" FontSize="12" Margin="50 5 0 0" FontWeight="Medium"/>
+        <Label Grid.Row="3" Grid.Column="1" Content="Busy" Foreground="#bdc2c9" FontSize="10" Margin="50 21 0 0" FontWeight="Medium"/>
+        <materialDesign:PackIcon Grid.Row="3" Grid.Column="1" Kind="Microphone" Width="23" Height="23" Foreground="#bdc2c9" Margin="140,0,0,0" VerticalAlignment="Center" />
+        <materialDesign:PackIcon Grid.Row="3" Grid.Column="1" Kind="Headphones" Width="23" Height="23" Foreground="#bdc2c9" Margin="175,0,0,0" VerticalAlignment="Center" />
+        <materialDesign:PackIcon Grid.Row="3" Grid.Column="1" Kind="Cog" Width="23" Height="23" Foreground="#bdc2c9" Margin="210,0,0,0" VerticalAlignment="Center" />
+        <Border Grid.Row="0" Grid.Column="0" Background="#5865f2" CornerRadius="15" Width="44" Height="42" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 10 0 0">
+            <materialDesign:PackIcon Kind="Twitter" Width="30" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+        </Border>
+        <Separator Grid.Row="1" Grid.Column="0" Margin="25 0 25 532" Background="#2f3035"/>
+        <Border Grid.Row="1" Grid.Column="0" Background="red" CornerRadius="30" Width="50" Height="50" VerticalAlignment="Center" Margin="0 0 0 465">
+            <materialDesign:PackIcon Kind="Twitter" Width="30" Height="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" Background="red" CornerRadius="30" Width="50" Height="50" VerticalAlignment="Center" Margin="0 0 0 345">
+            <materialDesign:PackIcon Kind="Twitter" Width="30" Height="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" Background="red" CornerRadius="30" Width="50" Height="50" VerticalAlignment="Center" Margin="0 0 0 225">
+            <materialDesign:PackIcon Kind="Twitter" Width="30" Height="30" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" Background="#313338" CornerRadius="30" Width="50" Height="50" VerticalAlignment="Center" Margin="0 0 0 105">
+            <materialDesign:PackIcon Kind="Plus" Width="30" Height="30" Foreground="#23a559" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="0" Background="#313338" CornerRadius="30" Width="50" Height="50" VerticalAlignment="Center" Margin="0 0 0 -15">
+            <materialDesign:PackIcon Kind="Compass" Width="30" Height="30" Foreground="#23a559" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Border Grid.Row="0" Grid.Column="1" Background="#1e1f22" CornerRadius="3" Width="200" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="Find or start a conversation" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="#bdc2c9" VerticalAlignment="Center" FontSize="10" FontWeight="Medium"/>
+        </Border>
+        <Separator Grid.Row="0" Grid.Column="1" Margin="0 48 0 0" VerticalAlignment="Center" Background="#282a2d"/>
+        <Separator Grid.Row="0" Grid.Column="2" Margin="0 48 0 0" VerticalAlignment="Center" Background="#282a2d"/>
+        <Separator Grid.Row="0" Grid.Column="3" Margin="0 48 0 0" VerticalAlignment="Center" Background="#282a2d"/>
+        <materialDesign:PackIcon Grid.Row="1" Grid.Column="1" Kind="HumanGreetingVariant" Foreground="#bdc2c9" Width="30" Height="26" Margin="30 10 0 0"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Friends" FontSize="15" Foreground="#bdc2c9" Margin="0 10 55 0" HorizontalAlignment="Center"/>
+        <materialDesign:PackIcon Grid.Row="1" Grid.Column="1" Kind="AppleIcloud" Foreground="#bdc2c9" Width="30" Height="26" Margin="30 50 0 0"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Nitro" FontSize="15" Foreground="#bdc2c9" Margin="0 50 70 0" HorizontalAlignment="Center"/>
+        <materialDesign:PackIcon Grid.Row="1" Grid.Column="1" Kind="Store" Foreground="#bdc2c9" Width="30" Height="26" Margin="30 90 0 0"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="Shop" FontSize="15" Foreground="#bdc2c9" Margin="0 90 70 0" HorizontalAlignment="Center"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="DIRECT MESSAGES" FontSize="10" Foreground="#bdc2c9" Margin="0 130 120 0" HorizontalAlignment="Center"/>
+        <materialDesign:PackIcon Grid.Row="1" Grid.Column="1" Kind="Plus" Width="15" Height="15" Foreground="#bdc2c9" Margin="180 135 0 0" HorizontalAlignment="Center" FontWeight="Medium"/>
+        <Border Grid.Row="1" Grid.Column="1" Background="#404249" CornerRadius="5" Width="230" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10 10 10 200"/>
+        <Border Grid.Row="1" Grid.Column="1" CornerRadius="50" Width="35" Height="35" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 190">
+            <Border.Background>
+                <ImageBrush ImageSource="../../Images/GreyProfilePhoto.png"/>
+            </Border.Background>
+        </Border>
+        <Border Grid.Row="1" Grid.Column="1" CornerRadius="50" Width="35" Height="35" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 100">
+            <Border.Background>
+                <ImageBrush ImageSource="../../Images/CavidProfilePhoto.jpg"/>
+            </Border.Background>
+        </Border>
+        <Label Grid.Row="1" Grid.Column="1" Content="penahli__0111" FontSize="13" FontWeight="Medium" Foreground="White" Margin="10 165 50 0" HorizontalAlignment="Center"/>
+        <Label Grid.Row="1" Grid.Column="1" Content="j__atamoglanov" FontSize="13" FontWeight="Medium" Foreground="#bdc2c9" Margin="10 210 40 0" HorizontalAlignment="Center"/>
+        <Border Grid.Row="1" Grid.Column="1" CornerRadius="50" Width="35" Height="35" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 10">
+            <Border.Background>
+                <ImageBrush ImageSource="../../Images/GreenProfilePhoto.png"/>
+            </Border.Background>
+        </Border>
+        <Label Grid.Row="1" Grid.Column="1" Content="Ibrahim" FontSize="13" FontWeight="Medium" Foreground="#bdc2c9" Margin="0 255 70 0" HorizontalAlignment="Center"/>
+        <Border Grid.Row="1" Grid.Column="1" CornerRadius="50" Width="35" Height="35" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 -80">
+            <Border.Background>
+                <ImageBrush ImageSource="../../Images/YellowProfilePhoto.png"/>
+            </Border.Background>
+        </Border>
+        <Label Grid.Row="1" Grid.Column="1" Content="Justmurad" FontSize="13" FontWeight="Medium" Foreground="#bdc2c9" Margin="0 300 55 0" HorizontalAlignment="Center"/>
+        <Border Grid.Row="3" Grid.Column="2" Background="#404249" CornerRadius="10" Width="730" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 10 0 10">
+            <TextBox x:Name="inputTextBox" Grid.Row="3" Grid.Column="2" FontSize="10" VerticalContentAlignment="Center" Foreground="#bdc2c9" Padding="35 0 0 0"/>
+        </Border>
+        <materialDesign:PackIcon Grid.Row="3" Grid.Column="2" Kind="PlusCircle" Foreground="#bdc2c9" Width="20" Height="20" Margin="20 15 0 0"/>
+        <Border Grid.Row="0" Grid.Column="2" Background="#757e8a" CornerRadius="50" Width="25" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0">
+            <materialDesign:PackIcon Kind="Twitter" Width="20" Height="25" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+        <Label Grid.Row="0" Grid.Column="2" Content="penahli__0111" FontSize="13" FontWeight="Medium" Foreground="#bdc2c9" Margin="43 0 0 0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="3" Kind="HelpCircle" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 10 0 "/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="3" Kind="Inbox" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 45 0 "/>
+        <Border Grid.Row="0" Grid.Column="3" Background="#1e1f22" CornerRadius="3" Width="150" Height="25" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 20 0">
+            <Label Content="Search" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" Foreground="#bdc2c9" VerticalAlignment="Center" FontSize="10" FontWeight="Medium"/>
+        </Border>
+        <materialDesign:PackIcon Grid.Row="0" Grid.Column="3" Kind="Magnify" Width="15" Height="15" Foreground="#bdc2c9" Margin="195 0 0 0" VerticalAlignment="Center" FontWeight="Medium"/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="3" Kind="AccountCircle" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="35 0 0 0 "/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="3" Kind="AccountPlus" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="5 0 0 0 "/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="2" Kind="Pin" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 2 0 0 "/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="2" Kind="Video" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 2 25 0 "/>
+        <materialDesign:PackIcon  Grid.Row="0" Grid.Column="2" Kind="PhoneInTalk" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 2 55 0 "/>
+        <materialDesign:PackIcon  Grid.Row="3" Grid.Column="2" Kind="Emoticon" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 20 0 "/>
+        <materialDesign:PackIcon  Grid.Row="3" Grid.Column="2" Kind="StickerEmoji" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 45 0 "/>
+        <materialDesign:PackIcon  Grid.Row="3" Grid.Column="2" Kind="FileGifBox" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 70 0 "/>
+        <materialDesign:PackIcon  Grid.Row="3" Grid.Column="2" Kind="Gift" Foreground="#bdc2c9" Width="20" Height="20" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 0 95 0 "/>
+        <Frame Grid.Row="1" Grid.Column="3" Background="#747c8b" Margin="0 0 0 450"/>
+        <Border Grid.Row="1" Grid.Column="3" Background="Black" CornerRadius="3" Width="250" Height="200" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20 0 20 45">
+        </Border>
+        <Border Grid.Row="1" Grid.Column="3" Background="Black" CornerRadius="3" Width="250" Height="80" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="20 280 20 0">
+        </Border>
+        <Border Grid.Row="1" Grid.Column="3" Background="#232428" CornerRadius="50" Width="76" Height="76" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="17 0 0 370">
+        </Border>
+        <Border Grid.Row="1" Grid.Column="3" CornerRadius="50" Width="70" Height="70" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20 0 0 370">
+            <Border.Background>
+                <ImageBrush ImageSource="../../Images/GreyProfilePhoto.png"/>
+            </Border.Background>
+        </Border>
+        <Separator Grid.Row="1" Grid.Column="3" Margin="40 0 40 130" Background="#282a2d"/>
+        <Separator Grid.Row="1" Grid.Column="3" Margin="40 0 40 30" Background="#282a2d"/>
+        <Separator Grid.Row="1" Grid.Column="3" Margin="40 280 40 0" Background="#282a2d"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="White" Content="penahli__0111" FontWeight="Bold" FontSize="12" Margin="40 155 0 0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="White" Content="penahli__0111#5831" FontWeight="Bold" FontSize="9" Margin="40 173 0 0"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="White" Content="DISCORD MEMBER SINCE" FontWeight="Bold" FontSize="11" Margin="40 212 0 0"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="#bdc2c9" Content="Jun 19, 2023" FontWeight="Medium" FontSize="9" Margin="40 227 0 0"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="White" Content="NOTE" FontWeight="Bold" FontSize="9" Margin="40 260 0 0"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="#bdc2c9" Content="Click to add a note" FontWeight="Bold" FontSize="9" Margin="40 280 0 0"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="#bdc2c9" Content="1 Matual Server" FontWeight="Bold" FontSize="9" Margin="40 385 0 0"/>
+        <Label Grid.Row="1" Grid.Column="3" Foreground="#bdc2c9" Content="1 Matual Friend" FontWeight="Bold" FontSize="9" Margin="40 422 0 0"/>
+        <materialDesign:PackIcon  Grid.Row="1" Grid.Column="3" Foreground="#bdc2c9" Kind="ChevronRight" Margin="250 422 0 0"/>
+        <materialDesign:PackIcon  Grid.Row="1" Grid.Column="3" Foreground="#bdc2c9" Kind="ChevronRight" Margin="250 385 0 0"/>
+    </Grid>
+</Window>
