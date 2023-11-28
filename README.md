@@ -8,7 +8,7 @@ Welcome to the Step It Homework repository! Here you can find homework assignmen
 - [Homework Overview](#homework-overview)
 - [Getting Started](#getting-started)
 - [Folder Structure](#folder-structure)
-- [License](#LICANCE)
+- [License](#LICENSE)
 
 ## Introduction
 
