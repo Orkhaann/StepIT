@@ -20,7 +20,7 @@ This repository contains homework assignments for the Step It project. Each assi
 - [C#](../c#): Homework assignments related to C#.
 - [WPF](../WPF): Homework assignments related to WPF.
 - [WinForms](./WinForms): Homework assignments related to WinForms.
-- [Design Patterns](./design-patterns): Homework assignments related to Design Pattern.
+- [Design Patterns](./Design%20Patterns): Homework assignments related to Design Pattern.
 
 Each language folder contains its own set of homework assignments. Feel free to explore and contribute to the tasks that interest you.
 
