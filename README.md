@@ -28,7 +28,7 @@ Each language folder contains its own set of homework assignments. Feel free to 
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/step-it-homework.git`
+1. Clone the repository: `git clone https://github.com/Orkhaann/StepIT.git`
 2. Navigate to the specific language folder: `cd step-it-homework/python` (replace `python` with your chosen language)
 3. Explore the available homework assignments.
 4. Choose a task, work on it, and contribute!
