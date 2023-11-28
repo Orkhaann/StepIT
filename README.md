@@ -17,11 +17,10 @@ This repository contains homework assignments for the Step It project. Each assi
 
 ## Homework Overview
 
-- [Python](./python): Homework assignments related to Python.
-- [JavaScript](./javascript): Homework assignments related to JavaScript.
-- [Java](./java): Homework assignments related to Java.
-- [C++](./cpp): Homework assignments related to C++.
-- [... add more languages as needed]
+- [C#](./c#): Homework assignments related to C#.
+- [WPF](./wpf): Homework assignments related to WPF.
+- [WinForms](./winforms): Homework assignments related to WinForms.
+- [Design Patterns](./design-patterns): Homework assignments related to Design Pattern.
 
 Each language folder contains its own set of homework assignments. Feel free to explore and contribute to the tasks that interest you.
 
