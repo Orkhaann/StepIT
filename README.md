@@ -1,4 +1,4 @@
-# Step It Homework Repository
+# Step IT Homework
 
 Welcome to the Step It Homework repository! Here you can find homework assignments in various programming languages.
 
