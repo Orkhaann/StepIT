@@ -23,7 +23,7 @@ This repository contains homework assignments for the Step It project. Each assi
 
 Each language folder contains its own set of homework assignments. Feel free to explore and contribute to the tasks that interest you.
 
-### Prerequisites
+## Prerequisites
 
 - [Visual Studio](https://visualstudio.microsoft.com/) installed
 - [NuGet Package Manager](https://www.nuget.org/) for package dependencies
