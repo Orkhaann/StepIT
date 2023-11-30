@@ -1,0 +1,17 @@
+[
+  {
+    "ID": 0,
+    "Name": null,
+    "Username": null,
+    "Email": null,
+    "Address": {
+      "Street": null,
+      "City": null
+    },
+    "Website": null,
+    "Company": {
+      "Name": null,
+      "company": null
+    }
+  }
+]
