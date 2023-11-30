@@ -1,0 +1,14 @@
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\bin\Debug\net6.0\Facade.exe
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\bin\Debug\net6.0\Facade.deps.json
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\bin\Debug\net6.0\Facade.runtimeconfig.json
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\bin\Debug\net6.0\Facade.dll
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\bin\Debug\net6.0\Facade.pdb
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\Facade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\Facade.AssemblyInfoInputs.cache
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\Facade.AssemblyInfo.cs
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\Facade.csproj.CoreCompileInputs.cache
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\Facade.dll
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\refint\Facade.dll
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\Facade.pdb
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\Facade.genruntimeconfig.cache
+C:\Users\orkha_wpyrape\source\repos\Facade\Facade\obj\Debug\net6.0\ref\Facade.dll
