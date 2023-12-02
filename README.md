@@ -15,6 +15,7 @@ This repository contains homework assignments for the Step It project. Each assi
 
 ## Homework Overview
 
+- [C++](./C%2B%2B): Homework assignments related to C++.
 - [C#](./C%23): Homework assignments related to C#.
 - [WPF](./WPF): Homework assignments related to WPF.
 - [WinForms](./WinForms): Homework assignments related to WinForms.
