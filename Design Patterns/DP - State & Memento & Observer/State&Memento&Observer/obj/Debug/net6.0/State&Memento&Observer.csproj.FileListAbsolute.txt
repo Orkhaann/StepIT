@@ -1,0 +1,15 @@
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\bin\Debug\net6.0\State&Memento&Observer.exe
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\bin\Debug\net6.0\State&Memento&Observer.deps.json
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\bin\Debug\net6.0\State&Memento&Observer.runtimeconfig.json
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\bin\Debug\net6.0\State&Memento&Observer.dll
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\bin\Debug\net6.0\State&Memento&Observer.pdb
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.csproj.AssemblyReference.cache
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.AssemblyInfoInputs.cache
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.AssemblyInfo.cs
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.csproj.CoreCompileInputs.cache
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.dll
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\refint\State&Memento&Observer.dll
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.pdb
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\State&Memento&Observer.genruntimeconfig.cache
+C:\Users\Memme_mj16\source\repos\State&Memento&Observer\State&Memento&Observer\obj\Debug\net6.0\ref\State&Memento&Observer.dll
